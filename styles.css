@@ -1,23 +1,27 @@
-/*  your css code here. If applicable */
-main{
-	background-color:#f5f5f5;
-	padding:40px;
+main {
+    background-color: #f5f5f5;
+    padding: 40px;
+    font-family: sans-serif; /* Adds a clean look similar to the image */
 }
 
-testimonial{
-background-color: #ffffff;
-  border: 1px solid #e0e0e0;
-  padding: 30px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
+.testimonial {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* Keeps the layout clean and stacked */
+    display: flex; 
+    flex-direction: column;
 }
 
-text{
-	font-style:normal;
+.text {
+    font-style: normal;
+    margin-bottom: 10px;
 }
 
-Author{
-	text-align:right;
-	font-style:italic;
+.author {
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
 }
