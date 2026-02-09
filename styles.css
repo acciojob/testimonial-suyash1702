@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+main{
+	background-color:#f5f5f5;
+	padding:40px;
+}
+
+testimonial{
+background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+text{
+	font-style:normal;
+}
+
+Author{
+	text-align:right;
+	font-style:italic;
+}
